@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="INSERT_OR_UPDATE">
+        <decision_input display_value="Company">88b9358b1b4fc9908c5143f3cc4bcbb5</decision_input>
+        <decision_table display_value="Dayforce Approval Group from Company">e649fdcb1b4fc9908c5143f3cc4bcb0e</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Company</label>
+        <order>100</order>
+        <parent/>
+        <reference display_value="Company" name="core_company">0c7468231b211010e7004229bc4bcbed</reference>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-04-28 15:24:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9cb939cb1b4fc9908c5143f3cc4bcb8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_9cb939cb1b4fc9908c5143f3cc4bcb8e</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <type display_value="Reference">52a227c1bf3320001875647fcf07396a</type>
+    </sn_decision_table_decision_condition>
+</record_update>

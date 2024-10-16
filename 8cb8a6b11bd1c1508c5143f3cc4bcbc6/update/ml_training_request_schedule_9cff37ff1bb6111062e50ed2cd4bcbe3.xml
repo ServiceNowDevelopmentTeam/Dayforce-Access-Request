@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <ml_capability_definition display_value="">83ea2f1053c40010d1dcddeeff7b12ef</ml_capability_definition>
+        <ml_solution/>
+        <name>Similar Resolved Incidents</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="Terry Lillo">b4bad8641be3a010e7004229bc4bcb57</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-11-03 19:02:19</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-11-03 19:02:19</sys_created_on>
+        <sys_id>9cff37ff1bb6111062e50ed2cd4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Similar Resolved Incidents</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>ml_training_request_schedule_9cff37ff1bb6111062e50ed2cd4bcbe3</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-11-03 19:02:19</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+</record_update>

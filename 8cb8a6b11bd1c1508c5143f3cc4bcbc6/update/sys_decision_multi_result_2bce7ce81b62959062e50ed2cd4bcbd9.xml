@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Dayforce Approval Matrix">0322f0241b22959062e50ed2cd4bcb97</decision_table>
+        <label>Application Owner: false, Segment Leader: true, Controller: false, CPO: false, VP of Internal Audit: false, HRIS: true</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2bce7ce81b62959062e50ed2cd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Application Owner: false, Segment Leader: true, Controller: false, CPO: false, VP of Internal Audit: false, HRIS: true</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_decision_multi_result_2bce7ce81b62959062e50ed2cd4bcbd9</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=2bce7ce81b62959062e50ed2cd4bcbd9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>2bce7ce81b62959062e50ed2cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Controller">feb278241b22959062e50ed2cd4bcb43</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>2fce7ce81b62959062e50ed2cd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="CPO">7ab274641b22959062e50ed2cd4bcb7e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>67ce7ce81b62959062e50ed2cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Segment Leader">f6b274641b22959062e50ed2cd4bcb8f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>a3ce7ce81b62959062e50ed2cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Application Owner">0fb274641b22959062e50ed2cd4bcbca</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>ebce7ce81b62959062e50ed2cd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>1</value>
+        <variable display_value="HRIS">43cef0e81b62959062e50ed2cd4bcb08</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>2bce7ce81b62959062e50ed2cd4bcbd9</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:33</sys_created_on>
+        <sys_id>efce7ce81b62959062e50ed2cd4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:33</sys_updated_on>
+        <value>0</value>
+        <variable display_value="VP of Internal Audit">32b274641b22959062e50ed2cd4bcbad</variable>
+    </sys_variable_value>
+</record_update>

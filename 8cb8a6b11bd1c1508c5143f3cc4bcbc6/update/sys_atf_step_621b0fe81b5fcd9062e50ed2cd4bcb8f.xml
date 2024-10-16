@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Impersonate">1038639f1bcbcd908c5143f3cc4bcb27</copied_from>
+        <description>Impersonate the user: {{Step 2: Create a User.User}}</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Impersonate Manager</notes>
+        <order>4</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 13:11:27</sys_created_on>
+        <sys_id>621b0fe81b5fcd9062e50ed2cd4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_atf_step_621b0fe81b5fcd9062e50ed2cd4bcb8f</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <table/>
+        <test display_value="TC - 291 - Dayforce Request - New Access - Approved Not Submitted by Manager - ITIL">561b47a81b5fcd9062e50ed2cd4bcbb6</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=621b0fe81b5fcd9062e50ed2cd4bcb8f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>621b0fe81b5fcd9062e50ed2cd4bcb8f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 13:11:27</sys_created_on>
+        <sys_id>e61b0fe81b5fcd9062e50ed2cd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 13:11:27</sys_updated_on>
+        <value/>
+        <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=621b0fe81b5fcd9062e50ed2cd4bcb8f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>user</field>
+        <id>621b0fe81b5fcd9062e50ed2cd4bcb8f</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 13:11:28</sys_created_on>
+        <sys_id>6e1b0fe81b5fcd9062e50ed2cd4bcb90</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 13:12:23</sys_updated_on>
+        <table>var__m_atf_input_variable_071ee5b253331200040729cac2dc348d</table>
+        <value>{{step['561b0fe81b5fcd9062e50ed2cd4bcb5d'].user}}</value>
+    </sys_element_mapping>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>1808a4c3ee00000001</claim_timestamp>
+        <metadata_update_name>sys_atf_step_621b0fe81b5fcd9062e50ed2cd4bcb8f</metadata_update_name>
+        <previous_claim_app_version>1.0.2</previous_claim_app_version>
+        <previous_claim_name>Dayforce Access Request</previous_claim_name>
+        <previous_claim_scope>8cb8a6b11bd1c1508c5143f3cc4bcbc6</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 14:21:34</sys_created_on>
+        <sys_id>9d2b1b681b9301d062e50ed2cd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>1808a4c3edd0000001</claim_timestamp>
+        <metadata_update_name>sys_atf_step_621b0fe81b5fcd9062e50ed2cd4bcb8f</metadata_update_name>
+        <previous_claim_app_version>1.1.23</previous_claim_app_version>
+        <previous_claim_name>Cascading Approvals</previous_claim_name>
+        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 14:21:34</sys_created_on>
+        <sys_id>512b1b681b9301d062e50ed2cd4bcb36</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+</record_update>

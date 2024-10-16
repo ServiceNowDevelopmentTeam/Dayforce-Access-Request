@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Environment">043805a21b9442d0c16ddb9ebd4bcb24</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 14:24:29</sys_created_on>
+        <sys_id>5258c9a21b9442d0c16ddb9ebd4bcbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Production</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>question_choice_5258c9a21b9442d0c16ddb9ebd4bcbda</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:24:29</sys_updated_on>
+        <text>Production</text>
+        <value>production</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5258c9a21b9442d0c16ddb9ebd4bcbda"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>5258c9a21b9442d0c16ddb9ebd4bcbda</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 14:24:29</sys_created_on>
+        <sys_id>116889a21b9442d0c16ddb9ebd4bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:24:29</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>5258c9a21b9442d0c16ddb9ebd4bcbda</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 14:24:29</sys_created_on>
+        <sys_id>d56889a21b9442d0c16ddb9ebd4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:24:29</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>question_choice_5258c9a21b9442d0c16ddb9ebd4bcbda</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><misc>0</misc><order>100</order><published_ref/><question display_value="Environment">043805a21b9442d0c16ddb9ebd4bcb24</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-02-14 14:24:29</sys_created_on><sys_id>5258c9a21b9442d0c16ddb9ebd4bcbda</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Production</sys_name><sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package><sys_policy/><sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope><sys_update_name>question_choice_5258c9a21b9442d0c16ddb9ebd4bcbda</sys_update_name><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-02-14 14:24:29</sys_updated_on><text>Production</text><value>production</value></question_choice><fx_price action="delete_multiple" query="id=5258c9a21b9442d0c16ddb9ebd4bcbda"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>5258c9a21b9442d0c16ddb9ebd4bcbda</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-02-14 14:24:29</sys_created_on><sys_id>116889a21b9442d0c16ddb9ebd4bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-02-14 14:24:29</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>5258c9a21b9442d0c16ddb9ebd4bcbda</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-02-14 14:24:29</sys_created_on><sys_id>d56889a21b9442d0c16ddb9ebd4bcb90</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-02-14 14:24:29</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1243826856</payload_hash>
+        <record_name>Production</record_name>
+        <reverted_from/>
+        <source>9d33c12e1b5442d0c16ddb9ebd4bcb3e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 14:24:29</sys_created_on>
+        <sys_id>d56889a21b9442d0c16ddb9ebd4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18da8013c7c0000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:24:29</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d96889a2fe9442d02b121cae5b7c8292</update_guid>
+        <update_guid_history>d96889a2fe9442d02b121cae5b7c8292:-1243826856</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Production">c19801e21b9442d0c16ddb9ebd4bcbb7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 14:25:17</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>12730cd934244324a42db294cd7a5444</sys_id>
+        <sys_metadata>5258c9a21b9442d0c16ddb9ebd4bcbda</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Production</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_parent display_value="Environment (Select all that apply)">043805a21b9442d0c16ddb9ebd4bcb24</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_scope_delete display_value="">6f50a71368504f0abb44120a1e237671</sys_scope_delete>
+        <sys_update_name>question_choice_5258c9a21b9442d0c16ddb9ebd4bcbda</sys_update_name>
+        <sys_update_version display_value="question_choice_5258c9a21b9442d0c16ddb9ebd4bcbda">d56889a21b9442d0c16ddb9ebd4bcb93</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:25:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

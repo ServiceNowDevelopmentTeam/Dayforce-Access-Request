@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Dayforce Access Request">52978ccf1ba03cd08c5143f3cc4bcba4</catalog_item>
+        <catalog_variable>IO:1035f2821b26211062e50ed2cd4bcb1d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-05-03 13:03:43</sys_created_on>
+        <sys_id>10953e821b26211062e50ed2cd4bcb8a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>pr_admin_company_access_select_all_that_apply</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_10953e821b26211062e50ed2cd4bcb8a</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 14:19:20</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if PR admin">3ec476421b26211062e50ed2cd4bcb4d</ui_policy>
+        <variable>pr_admin_company_access_select_all_that_apply</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

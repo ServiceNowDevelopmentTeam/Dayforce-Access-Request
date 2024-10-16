@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_auto_discovery_report_definition">
+    <sn_auto_discovery_report_definition action="INSERT_OR_UPDATE">
+        <closed_column>closed_at</closed_column>
+        <cluster_records>true</cluster_records>
+        <current_stage>11</current_stage>
+        <distribution_column/>
+        <field>short_description</field>
+        <filter/>
+        <group_field/>
+        <integration/>
+        <model>ITSM</model>
+        <name>Incident 11/3/2022</name>
+        <opened_column>opened_at</opened_column>
+        <rule_based_model_id/>
+        <solution_definition/>
+        <status>solution_complete</status>
+        <sys_class_name>sn_auto_discovery_report_definition</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-11-03 18:47:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>837cbff31bb6111062e50ed2cd4bcbfc</sys_id>
+        <sys_mod_count>182</sys_mod_count>
+        <sys_name>11</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sn_auto_discovery_report_definition_837cbff31bb6111062e50ed2cd4bcbfc</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-06-01 19:02:47</sys_updated_on>
+        <table>incident</table>
+        <training_frequency>every_30_days</training_frequency>
+        <user_fields>state,contact_type,assignment_group,opened_at,closed_at</user_fields>
+        <watch_list/>
+    </sn_auto_discovery_report_definition>
+</record_update>

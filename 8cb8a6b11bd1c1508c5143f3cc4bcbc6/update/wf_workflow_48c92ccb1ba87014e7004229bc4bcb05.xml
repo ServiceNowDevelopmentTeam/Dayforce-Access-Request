@@ -1,0 +1,2237 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <activity_stages>{"subflows":[],"activities":{"8d2f0a031ba770908c5143f3cc4bcbcb":"012fc28f1b6770908c5143f3cc4bcbe1","c52f0a031ba770908c5143f3cc4bcbc6":"012fc28f1b6770908c5143f3cc4bcbe1","452f0a031ba770908c5143f3cc4bcbc5":"8d2fc28f1b6770908c5143f3cc4bcbe0","812f0a031ba770908c5143f3cc4bcbd1":"012fc28f1b6770908c5143f3cc4bcbe1","cd2f0a031ba770908c5143f3cc4bcbc1":"012fc28f1b6770908c5143f3cc4bcbe1","892f0a031ba770908c5143f3cc4bcbc3":"012fc28f1b6770908c5143f3cc4bcbe1"},"stages":{"8d2fc28f1b6770908c5143f3cc4bcbe0":{"duration":"","order":1100,"stageId":"8d2fc28f1b6770908c5143f3cc4bcbe0","name":"Completed","value":"complete"},"012fc28f1b6770908c5143f3cc4bcbe1":{"duration":"1 Day","order":120,"stageId":"012fc28f1b6770908c5143f3cc4bcbe1","name":"Fulfillment","value":"fulfillment"}},"ends":["092f0a031ba770908c5143f3cc4bcbc4"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>0d2f0a031ba770908c5143f3cc4bcbd2,812f0a031ba770908c5143f3cc4bcbd1,cd2f0a031ba770908c5143f3cc4bcbc1,c52f0a031ba770908c5143f3cc4bcbc6,452f0a031ba770908c5143f3cc4bcbc5,092f0a031ba770908c5143f3cc4bcbc4</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>0d2f0a031ba770908c5143f3cc4bcbd2,812f0a031ba770908c5143f3cc4bcbd1,cd2f0a031ba770908c5143f3cc4bcbc1,892f0a031ba770908c5143f3cc4bcbc3,c52f0a031ba770908c5143f3cc4bcbc6,8d2f0a031ba770908c5143f3cc4bcbcb,452f0a031ba770908c5143f3cc4bcbc5,092f0a031ba770908c5143f3cc4bcbc4</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Dayforce Access Request</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">0d2f0a031ba770908c5143f3cc4bcbd2</start>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12fc28f1b6770908c5143f3cc4bcbdf</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-01-18 13:59:30</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Dayforce Access Request">48c92ccb1ba87014e7004229bc4bcb05</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Dayforce Access Request</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-09 06:47:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>48c92ccb1ba87014e7004229bc4bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dayforce Access Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>wf_workflow_48c92ccb1ba87014e7004229bc4bcb05</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2fc28f1b6770908c5143f3cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052fc28f1b6770908c5143f3cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012fc28f1b6770908c5143f3cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2fc28f1b6770908c5143f3cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812fc28f1b6770908c5143f3cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852fc28f1b6770908c5143f3cc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>17</x>
+        <y>119</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0d2f0a031ba770908c5143f3cc4bcbd2"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">0d2f0a031ba770908c5143f3cc4bcbd2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check request type</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">012fc28f1b6770908c5143f3cc4bcbe1</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>22</x>
+        <y>209</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=812f0a031ba770908c5143f3cc4bcbd1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>4af84c831be03cd08c5143f3cc4bcb38</value>
+        <variable display_value="Variable">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>variable</value>
+        <variable display_value="Type">f85385830a0a3c18008599b17b971cbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">f8575c7d0a0a3c1800b8f4d25403c852</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>variable</value>
+        <variable display_value="Type">f85385830a0a3c18008599b17b971cbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>4af84c831be03cd08c5143f3cc4bcb38</value>
+        <variable display_value="Variable">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>812f0a031ba770908c5143f3cc4bcbd1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">f8575c7d0a0a3c1800b8f4d25403c852</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check request type">812f0a031ba770908c5143f3cc4bcbd1</activity>
+        <condition>activity.result == 'New Access'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>New Access</name>
+        <order>1000</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check request type">812f0a031ba770908c5143f3cc4bcbd1</activity>
+        <condition>activity.result == 'Remove Access'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Remove Access</name>
+        <order>1001</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>8</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>complete</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Completed">8d2fc28f1b6770908c5143f3cc4bcbe0</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>226</x>
+        <y>414</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=452f0a031ba770908c5143f3cc4bcbc5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>452f0a031ba770908c5143f3cc4bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>452f0a031ba770908c5143f3cc4bcbc5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>state=3^EQ</value>
+        <variable display_value="Set these values">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="complete">452f0a031ba770908c5143f3cc4bcbc5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>7</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create task and populate short desk and desc</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">012fc28f1b6770908c5143f3cc4bcbe1</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>28</x>
+        <y>415</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=8d2f0a031ba770908c5143f3cc4bcbcb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>092f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+task.short_description = current.short_description;&#13;
+task.assignment_group = current.assignment_group;&#13;
+task.description = 'SOX Compliance Approval requirements for Removing Access:  Confirm that either HR, the Approving Manager or the user themself has requested access removal. (A user requesting access removal for themself does not require any approval). If HR or the approving manager did not submit the request, request and document approval from approving manager in this ticket.  Once approved, proceed with requested access removal.';</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>Values</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>092f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>Values</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+task.short_description = current.short_description;&#13;
+task.assignment_group = current.assignment_group;&#13;
+task.description = 'SOX Compliance Approval requirements for Removing Access:  Confirm that either HR, the Approving Manager or the user themself has requested access removal. (A user requesting access removal for themself does not require any approval). If HR or the approving manager did not submit the request, request and document approval from approving manager in this ticket.  Once approved, proceed with requested access removal.';</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>8d2f0a031ba770908c5143f3cc4bcbcb</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create task and populate short desk and desc">8d2f0a031ba770908c5143f3cc4bcbcb</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Catalog Task">38891b6f0a0a0b1e00efdfdd77602027</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Create task and populate short desk and desc</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">012fc28f1b6770908c5143f3cc4bcbe1</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>222</x>
+        <y>306</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c52f0a031ba770908c5143f3cc4bcbc6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+task.short_description = current.short_description;&#13;
+task.assignment_group = current.assignment_group;&#13;
+task.description = 'Confirm Approving Manager has submitted the request for SOX approval requirements. If the approving manager did not submit the request, request and document approval from approving manager in this ticket.  Dayforce Approval Form should be attached for any elevated roles. Once approved, proceed with requested access.';</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>092f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>Values</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="Task Table">d7eb710cc0a80165001dace00d26aee0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Priority">d7ec9d5cc0a8016500a4ed439b25f438</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>40</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c12f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Wait for completion">c360af110a0a0ba97c533f11e09f464f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Due date based on">8f5ec60dc0a800667063095e6702d1ee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>250</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>492f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Duration">c360b80b0a0a0ba97c533f11a0c9814c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>092f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Field">8f722677c0a800664d3a879fadd87bfc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="Relative duration">8f630a2cc0a80066385b16d90585802d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule based on">8f63ae0fc0a80066697c832ba44df4e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>610</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule field">8f6728b4c0a80066478f02b692654b58</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>620</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Schedule">8f6814cfc0a8006605477949c2fa6e6e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone based on">8f68b111c0a800662a07dc10fa198c4f</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>710</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone">8f6c1eb6c0a8006633bb0f81ef62d520</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>720</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Time zone field">8f6d4120c0a8006655edc4495deb43ab</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>Values</value>
+        <variable display_value="Task value from">d7ee92ddc0a8016500b307a89bbf3db1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Fulfillment group">d7f2bd33c0a801650021da8ff242a081</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbc9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Assigned to">d7f3c998c0a8016500d0204c0005453b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>4d2f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Short description">d7f61655c0a8016500793dd16da8beff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Instructions">d7f6e527c0a801650053e44a74e34315</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Template">d7f79afac0a80165001b98ae987d06a5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Set Values">c360b4100a0a0ba97c533f1148325820</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1650</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbc7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Advanced">98b91165c0a800665c43a410b6f29fe5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1660</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set values for the task in this script.  Use the variable 'task' when setting additional values.&#13;
+// Note: This script is run after the task values are set using the Fields, Template or Values you have specified.&#13;
+//&#13;
+// For example:&#13;
+//     task.short_description = current.short_description;&#13;
+task.short_description = current.short_description;&#13;
+task.assignment_group = current.assignment_group;&#13;
+task.description = 'Confirm Approving Manager has submitted the request for SOX approval requirements. If the approving manager did not submit the request, request and document approval from approving manager in this ticket.  Dayforce Approval Form should be attached for any elevated roles. Once approved, proceed with requested access.';</value>
+        <variable display_value="Advanced script">98b96f90c0a800666b58ec516f330397</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>1700</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value/>
+        <variable display_value="Variables on Task Form">acb99baa0a0a0ba300d0938182192ad4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c52f0a031ba770908c5143f3cc4bcbc6</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="Due date script">8f79bbdbc0a80066479b2d5ea4863c24</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create task and populate short desk and desc">c52f0a031ba770908c5143f3cc4bcbc6</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbcb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>092f0a031ba770908c5143f3cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>432</x>
+        <y>451</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=092f0a031ba770908c5143f3cc4bcbc4"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Populate short desc when request type is new access</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">012fc28f1b6770908c5143f3cc4bcbe1</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>cd2f0a031ba770908c5143f3cc4bcbc1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:35</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>220</x>
+        <y>208</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=cd2f0a031ba770908c5143f3cc4bcbc1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cd2f0a031ba770908c5143f3cc4bcbc1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:35</sys_updated_on>
+        <value>var shortDescription = 'CER.SEC02 - Provision Dayforce Access - Access Request - ';&#13;
+shortDescription += current.variables.requested_for.getDisplayValue();&#13;
+current.short_description = shortDescription;&#13;
+current.assignment_group = "48b385421be35090e7004229bc4bcb14";&#13;
+&#13;
+var reqGr = new GlideRecord('sc_request');&#13;
+reqGr.get(current.getValue('request'));&#13;
+reqGr.setValue('short_description', 'Provision Dayforce Access - Access Request - ' + current.variables.requested_for.getDisplayValue());&#13;
+reqGr.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>cd2f0a031ba770908c5143f3cc4bcbc1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>452f0a031ba770908c5143f3cc4bcbc2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:35</sys_updated_on>
+        <value>var shortDescription = 'CER.SEC02 - Provision Dayforce Access - Access Request - ';&#13;
+shortDescription += current.variables.requested_for.getDisplayValue();&#13;
+current.short_description = shortDescription;&#13;
+current.assignment_group = "48b385421be35090e7004229bc4bcb14";&#13;
+&#13;
+var reqGr = new GlideRecord('sc_request');&#13;
+reqGr.get(current.getValue('request'));&#13;
+reqGr.setValue('short_description', 'Provision Dayforce Access - Access Request - ' + current.variables.requested_for.getDisplayValue());&#13;
+reqGr.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Populate short desc when request type is new access">cd2f0a031ba770908c5143f3cc4bcbc1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Populate short desc when request type is remove access</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage display_value="Fulfillment">012fc28f1b6770908c5143f3cc4bcbe1</stage>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:52</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+        <x>24</x>
+        <y>311</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=892f0a031ba770908c5143f3cc4bcbc3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>892f0a031ba770908c5143f3cc4bcbc3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:52</sys_updated_on>
+        <value>var shortDescription = 'CER.SEC05 - Deprovision Dayforce Access - Access Request - ';&#13;
+shortDescription += current.variables.requested_for.getDisplayValue();&#13;
+current.short_description = shortDescription;&#13;
+current.assignment_group = "48b385421be35090e7004229bc4bcb14";&#13;
+&#13;
+var reqGr = new GlideRecord('sc_request');&#13;
+reqGr.get(current.getValue('request'));&#13;
+reqGr.setValue('short_description', 'Deprovision Dayforce Access - Access Request - ' + current.variables.requested_for.getDisplayValue());&#13;
+reqGr.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>892f0a031ba770908c5143f3cc4bcbc3</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>0d2f0a031ba770908c5143f3cc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:19:52</sys_updated_on>
+        <value>var shortDescription = 'CER.SEC05 - Deprovision Dayforce Access - Access Request - ';&#13;
+shortDescription += current.variables.requested_for.getDisplayValue();&#13;
+current.short_description = shortDescription;&#13;
+current.assignment_group = "48b385421be35090e7004229bc4bcb14";&#13;
+&#13;
+var reqGr = new GlideRecord('sc_request');&#13;
+reqGr.get(current.getValue('request'));&#13;
+reqGr.setValue('short_description', 'Deprovision Dayforce Access - Access Request - ' + current.variables.requested_for.getDisplayValue());&#13;
+reqGr.update();</value>
+        <variable display_value="Script">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Populate short desc when request type is remove access">892f0a031ba770908c5143f3cc4bcbc3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>412f0a031ba770908c5143f3cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">412f0a031ba770908c5143f3cc4bcbc4</condition>
+        <from display_value="Populate short desc when request type is remove access">892f0a031ba770908c5143f3cc4bcbc3</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>012f0a031ba770908c5143f3cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="Create task and populate short desk and desc">8d2f0a031ba770908c5143f3cc4bcbcb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Remove Access">c12f0a031ba770908c5143f3cc4bcbd2</condition>
+        <from display_value="Check request type">812f0a031ba770908c5143f3cc4bcbd1</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>052f0a031ba770908c5143f3cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="Populate short desc when request type is remove access">892f0a031ba770908c5143f3cc4bcbc3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">012f0a031ba770908c5143f3cc4bcbc6</condition>
+        <from display_value="complete">452f0a031ba770908c5143f3cc4bcbc5</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>812f0a031ba770908c5143f3cc4bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="End">092f0a031ba770908c5143f3cc4bcbc4</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="New Access">452f0a031ba770908c5143f3cc4bcbd2</condition>
+        <from display_value="Check request type">812f0a031ba770908c5143f3cc4bcbd1</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>852f0a031ba770908c5143f3cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="Populate short desc when request type is new access">cd2f0a031ba770908c5143f3cc4bcbc1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">012f0a031ba770908c5143f3cc4bcbc3</condition>
+        <from display_value="Populate short desc when request type is new access">cd2f0a031ba770908c5143f3cc4bcbc1</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>892f0a031ba770908c5143f3cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="Create task and populate short desk and desc">c52f0a031ba770908c5143f3cc4bcbc6</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c52f0a031ba770908c5143f3cc4bcbcb</condition>
+        <from display_value="Create task and populate short desk and desc">c52f0a031ba770908c5143f3cc4bcbc6</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>8d2f0a031ba770908c5143f3cc4bcbd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="complete">452f0a031ba770908c5143f3cc4bcbc5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">052f0a031ba770908c5143f3cc4bcbd3</condition>
+        <from display_value="Begin">0d2f0a031ba770908c5143f3cc4bcbd2</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52f0a031ba770908c5143f3cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="Check request type">812f0a031ba770908c5143f3cc4bcbd1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">892f0a031ba770908c5143f3cc4bcbd0</condition>
+        <from display_value="Create task and populate short desk and desc">8d2f0a031ba770908c5143f3cc4bcbcb</from>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c92f0a031ba770908c5143f3cc4bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <to display_value="complete">452f0a031ba770908c5143f3cc4bcbc5</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2021-11-05 17:18:50</sys_created_on>
+        <sys_id>c52fc28f1b6770908c5143f3cc4bcbdf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2021-11-05 17:18:50</sys_updated_on>
+        <workflow_version display_value="Dayforce Access Request">c12fc28f1b6770908c5143f3cc4bcbdf</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=48c92ccb1ba87014e7004229bc4bcb05^sys_id!=c12fc28f1b6770908c5143f3cc4bcbdf">
+        <published>false</published>
+    </wf_workflow_version>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>17e9d8337f20000001</claim_timestamp>
+        <metadata_update_name>wf_workflow_48c92ccb1ba87014e7004229bc4bcb05</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Dayforce Access Request</previous_claim_name>
+        <previous_claim_scope>8cb8a6b11bd1c1508c5143f3cc4bcbc6</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-27 21:48:49</sys_created_on>
+        <sys_id>05e826f11bd1c1508c5143f3cc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+</record_update>

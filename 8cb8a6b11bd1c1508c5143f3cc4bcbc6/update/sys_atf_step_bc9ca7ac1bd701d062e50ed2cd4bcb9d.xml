@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Record Query">343bdb681b9301d062e50ed2cd4bcbc4</copied_from>
+        <description>Validate there is at least one record in 'sysapproval_approver' matching query:
+Approving = {{Step 8: Record Query.First record}}
+and State = Requested
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Validate approval record exists</notes>
+        <order>15</order>
+        <step_config display_value="Record Query">2d82e3c7531400109e02ddeeff7b12a7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>bc9ca7ac1bd701d062e50ed2cd4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_atf_step_bc9ca7ac1bd701d062e50ed2cd4bcb9d</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <table>sysapproval_approver</table>
+        <test display_value="TC - 293 - Dayforce Request - New Access - Rejected After Manager - ITIL">d89c6fe81bd701d062e50ed2cd4bcb05</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=bc9ca7ac1bd701d062e50ed2cd4bcb9d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bc9ca7ac1bd701d062e50ed2cd4bcb9d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>349ca7ac1bd701d062e50ed2cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:37:43</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="Assert type">b86c0427531000109e02ddeeff7b1227</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bc9ca7ac1bd701d062e50ed2cd4bcb9d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>7c9ca7ac1bd701d062e50ed2cd4bcb9f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:38:57</sys_updated_on>
+        <value>document_id={{step['e89c67ac1bd701d062e50ed2cd4bcb9c'].first_record}}^state=requested^EQ</value>
+        <variable display_value="Conditions">915990ab531000109e02ddeeff7b12f8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bc9ca7ac1bd701d062e50ed2cd4bcb9d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>b89ca7ac1bd701d062e50ed2cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:37:43</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="Table">78b8d86b531000109e02ddeeff7b12f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>bc9ca7ac1bd701d062e50ed2cd4bcb9d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>f49ca7ac1bd701d062e50ed2cd4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:37:43</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Enforce security">02fb0027531000109e02ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bc9ca7ac1bd701d062e50ed2cd4bcb9d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>enforce_security</field>
+        <id>bc9ca7ac1bd701d062e50ed2cd4bcb9d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:39:16</sys_created_on>
+        <sys_id>33eca7201b1b01d062e50ed2cd4bcbcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:39:16</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>bc9ca7ac1bd701d062e50ed2cd4bcb9d</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:37:43</sys_created_on>
+        <sys_id>709ca7ac1bd701d062e50ed2cd4bcba0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:38:57</sys_updated_on>
+        <table>var__m_atf_input_variable_2d82e3c7531400109e02ddeeff7b12a7</table>
+        <value>document_id={{step['e89c67ac1bd701d062e50ed2cd4bcb9c'].first_record}}^state=requested^EQ</value>
+    </sys_element_mapping>
+</record_update>

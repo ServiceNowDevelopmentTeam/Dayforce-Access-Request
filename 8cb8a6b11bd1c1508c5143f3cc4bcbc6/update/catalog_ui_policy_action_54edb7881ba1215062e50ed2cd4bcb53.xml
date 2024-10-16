@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Dayforce Access Request">52978ccf1ba03cd08c5143f3cc4bcba4</catalog_item>
+        <catalog_variable>IO:30fcb3841ba1215062e50ed2cd4bcbfd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-08 20:09:10</sys_created_on>
+        <sys_id>54edb7881ba1215062e50ed2cd4bcb53</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pay_group</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_54edb7881ba1215062e50ed2cd4bcb53</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-03-08 20:09:10</sys_updated_on>
+        <table/>
+        <ui_policy display_value="if pay group admin access should be visible">d5bd3f481ba1215062e50ed2cd4bcb80</ui_policy>
+        <variable>pay_group</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

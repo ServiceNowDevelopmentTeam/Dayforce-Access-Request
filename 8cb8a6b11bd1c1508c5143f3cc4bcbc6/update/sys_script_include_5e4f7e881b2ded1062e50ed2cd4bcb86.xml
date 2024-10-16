@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>global.u_DayforceCompanyFilter</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>u_DayforceCompanyFilter</name>
+        <script><![CDATA[var u_DayforceCompanyFilter = Class.create();
+u_DayforceCompanyFilter.prototype = {
+	initialize: function() {},
+	u_DayforceCompanyFilter: function(company){
+		gs.info('runs the company filter');
+		var choice_rec = new GlideRecord('sys_choice');
+		var query_string = '';
+		//dependent_value=XML^ORdependent_value=aaa
+		
+		var members = [];
+		//*************************************
+		// Company records, and their options
+		//*************************************
+		if(company == '64b51c9f1b021050f5a3635bbc4bcb11'){query_string = 'dependent_value=api_corporate';}
+		//APi Group Inc (dependent_value=corporate^OR  <- removed as api_corporate is supposadly all that is needed)
+		if(company == 'a5b55c9f1b021050f5a3635bbc4bcbb3'){query_string = 'dependent_value=industrial^ORdependent_value=can^ORdependent_value=summit';
+		}//Summit Pipeline
+		if(company == '85b51c9f1b021050f5a3635bbc4bcbe6'){query_string = 'dependent_value=industrial^ORdependent_value=can^ORdependent_value=train';
+		}//train oilfield
+		if(company == '24b51c9f1b021050f5a3635bbc4bcb0b'){query_string = 'dependent_value=industrial^ORdependent_value=us^ORdependent_value=jomax';}
+		//jomax
+		if(company == 'e4b5d89f1b021050f5a3635bbc4bcbe8'){query_string = 'dependent_value=industrial^ORdependent_value=us^ORdependent_value=northland';}
+		//northland constructors
+		if(company == '1cb5d89f1b021050f5a3635bbc4bcbd2'){query_string = 'dependent_value=industrial^ORdependent_value=us^ORdependent_value=upi';}
+		// United Piping Inc
+		if(company == '74b51c9f1b021050f5a3635bbc4bcb47'){query_string = 'dependent_value=safety^ORdependent_value=can^ORdependent_value=canam';}
+		//Canam Fire Protection
+		if(company == 'c1b51c9f1b021050f5a3635bbc4bcbd8'){query_string = 'dependent_value=safety^ORdependent_value=can^ORdependent_value=direct_fire';}
+		//Direct Fire Protection
+		if(company == 'c0b5d89f1b021050f5a3635bbc4bcb67'){query_string = 'dependent_value=safety^ORdependent_value=can^ORdependent_value=vipond';}
+		//Vipond Inc.
+		if(company == 'dcb5d89f1b021050f5a3635bbc4bcb7b'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=3s';}
+		//3S Incorporated
+		if(company == '28b5d89f1b021050f5a3635bbc4bcbde'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=afpg';}
+		//American Fire Protection Group Inc
+		if(company == '75b59c9f1b021050f5a3635bbc4bcb34'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=api_nsg';}
+		//APi National Service Group
+		if(company == '50b5d89f1b021050f5a3635bbc4bcbb8'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=davis_ulmer';}
+		//Davis-Ulmer Sprinkler Company
+		if(company == '50b5d89f1b021050f5a3635bbc4bcbbf'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=ifp';}
+		//International Fire Protection Inc
+		if(company == 'b4b51c9f1b021050f5a3635bbc4bcb63'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=nexus';}
+		//Nexus Alarm and Suppression
+		if(company == '4db51c9f1b021050f5a3635bbc4bcbc3'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=tcgd';}
+		//Twin City Garage Door Company
+		if(company == '2db55c9f1b021050f5a3635bbc4bcb83'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=tesseirs';}
+		//Tessier's Inc
+		if(company == '86069c531b421050f5a3635bbc4bcb52'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=texas_sprinkler';}
+		//Texas Sprinkler
+		if(company == '98b5d89f1b021050f5a3635bbc4bcba0'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=usafp';}
+		//United States Alliance Fire Protection
+		if(company == '1c998cfc1b8de810622b32ac0a4bcbb0'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=viking_vfp';}
+		//Viking Fire Protection Group
+		if(company == '3cb51c9f1b021050f5a3635bbc4bcb4e'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=wnm';}
+		//W&M Fire Protection Services
+		if(company == '98b5d89f1b021050f5a3635bbc4bcb8d'){query_string = 'dependent_value=safety^ORdependent_value=us^ORdependent_value=wsfp^ORdependent_value=wsfp_admin';}
+		//Western States Fire Protection
+		if(company == '60b51c9f1b021050f5a3635bbc4bcb01'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=api_inc^ORdependent_value=api_inc_admin';}
+		//APi Construction Company
+		if(company == 'a1b55c9f1b021050f5a3635bbc4bcb99'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=classic';}
+		//Classis Industrial Services Inc
+		if(company == 'c9b51c9f1b021050f5a3635bbc4bcbd3'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=ics';}
+		//Industrial Contract Services Inc
+		if(company == '7cb51c9f1b021050f5a3635bbc4bcb42'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=j_fletcher_creamer';}
+		//J Fletcher Creamer & Son, Inc.
+		if(company == '58b5d89f1b021050f5a3635bbc4bcbb4'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=jamar^ORdependent_value=jamar_admin';}//Jamar Company
+		if(company == '2afd75fc1b70c9d0df31da49cc4bcbb3'){query_string = 'dependent_value=specialty^ORdependent_value=us^ORdependent_value=tenet';}//tenet
+		
+		query_string+='^inactive=false';
+		choice_rec.addEncodedQuery(query_string);
+		choice_rec.query();
+		while(choice_rec.next()){
+			members.push(choice_rec.sys_id);
+		}
+		
+		return 'element=dayforce_permission_group^' + query_string;
+		//return 'sys_idIN' + members.toString();
+		//return 'sys_idIN' + members.join(',');
+		//return 'element=dayforce_permission_group';
+	},
+
+    type: 'u_DayforceCompanyFilter'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2023-03-08 16:10:06</sys_created_on>
+        <sys_id>5e4f7e881b2ded1062e50ed2cd4bcb86</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>u_DayforceCompanyFilter</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_script_include_5e4f7e881b2ded1062e50ed2cd4bcb86</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2023-05-11 15:18:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

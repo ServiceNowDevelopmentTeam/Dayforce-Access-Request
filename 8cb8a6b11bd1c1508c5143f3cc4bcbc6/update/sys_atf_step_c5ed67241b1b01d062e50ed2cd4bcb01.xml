@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from display_value="Set Variable Values (SP)">609c67ac1bd701d062e50ed2cd4bcb58</copied_from>
+        <description>Answer the questions on the form as follows:
+Company = APi Group
+and Requested For = 
+and Approving Manager = 
+and Request Type = Disable Access
+and Type of Disabled Access = Disable all access</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes>Set values on form</notes>
+        <order>6</order>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:43:28</sys_created_on>
+        <sys_id>c5ed67241b1b01d062e50ed2cd4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_atf_step_c5ed67241b1b01d062e50ed2cd4bcb01</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <table/>
+        <test display_value="TC - 294 - Dayforce Request - Disable Access - No Approvals - ITIL">70ed63e01b1b01d062e50ed2cd4bcb4a</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c5ed67241b1b01d062e50ed2cd4bcb01"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c5ed67241b1b01d062e50ed2cd4bcb01</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:43:28</sys_created_on>
+        <sys_id>09ed67241b1b01d062e50ed2cd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:43:28</sys_updated_on>
+        <value/>
+        <variable display_value="Multi-row Variable Set">2fba49d673142300688e0d573cf6a748</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c5ed67241b1b01d062e50ed2cd4bcb01</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:43:28</sys_created_on>
+        <sys_id>8ded67241b1b01d062e50ed2cd4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:43:28</sys_updated_on>
+        <value>52978ccf1ba03cd08c5143f3cc4bcba4</value>
+        <variable display_value="Item">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c5ed67241b1b01d062e50ed2cd4bcb01</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:43:28</sys_created_on>
+        <sys_id>c9ed67241b1b01d062e50ed2cd4bcb02</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:45:04</sys_updated_on>
+        <value>IO:54ca3d071b8fc9908c5143f3cc4bcb2b=64b51c9f1b021050f5a3635bbc4bcb11^IO:6680d3441ba274108c5143f3cc4bcb39={{step['b4ed27241b1b01d062e50ed2cd4bcb91'].user}}^IO:eef093841ba274108c5143f3cc4bcb81={{step['34ed27241b1b01d062e50ed2cd4bcb67'].user}}^IO:4af84c831be03cd08c5143f3cc4bcb38=0^IO:0ecc48c31be03cd08c5143f3cc4bcb85=Remove all access^EQ</value>
+        <variable display_value="Variable Values">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c5ed67241b1b01d062e50ed2cd4bcb01"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable_values</field>
+        <id>c5ed67241b1b01d062e50ed2cd4bcb01</id>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-03 15:43:28</sys_created_on>
+        <sys_id>05ed67241b1b01d062e50ed2cd4bcb03</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-05-03 15:45:04</sys_updated_on>
+        <table>var__m_atf_input_variable_2e4229b48703030070870cf888cb0b5c</table>
+        <value>IO:54ca3d071b8fc9908c5143f3cc4bcb2b=64b51c9f1b021050f5a3635bbc4bcb11^IO:6680d3441ba274108c5143f3cc4bcb39={{step['b4ed27241b1b01d062e50ed2cd4bcb91'].user}}^IO:eef093841ba274108c5143f3cc4bcb81={{step['34ed27241b1b01d062e50ed2cd4bcb67'].user}}^IO:4af84c831be03cd08c5143f3cc4bcb38=0^IO:0ecc48c31be03cd08c5143f3cc4bcb85=Remove all access^EQ</value>
+    </sys_element_mapping>
+</record_update>

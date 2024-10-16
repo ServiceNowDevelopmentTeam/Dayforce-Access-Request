@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="Role">d8c937a91b51ced0c16ddb9ebd4bcbc9</decision_input>
+        <decision_table display_value="Dayforce Approval Matrix 2 delta">5cc9b72d1b91ced0c16ddb9ebd4bcb59</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>Role</label>
+        <order>100</order>
+        <parent display_value="">e5b626c81b5142d0c16ddb9ebd4bcb46</parent>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-04-01 17:48:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:48:18</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sn_decision_table_decision_condition_cdc9fbe91b91ced0c16ddb9ebd4bcb60</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="Role">d8c937a91b51ced0c16ddb9ebd4bcbc9</decision_input><decision_table display_value="Dayforce Approval Matrix 2 delta">5cc9b72d1b91ced0c16ddb9ebd4bcb59</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>Role</label><order>100</order><parent display_value="">e5b626c81b5142d0c16ddb9ebd4bcb46</parent><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-04-01 17:48:18</sys_created_on><sys_domain>global</sys_domain><sys_id>cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package><sys_policy/><sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope><sys_update_name>sn_decision_table_decision_condition_cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_update_name><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-04-01 17:48:18</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>-1849073980</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>f56485a31b304a10c16ddb9ebd4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-04-01 17:48:18</sys_created_on>
+        <sys_id>01c9fbe91b91ced0c16ddb9ebd4bcb64</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e9ac6b8050000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:48:18</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>05c9fbe96d91ced078267954e31ac763</update_guid>
+        <update_guid_history>05c9fbe96d91ced078267954e31ac763:-1849073980</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9adb73ed1b91ced0c16ddb9ebd4bcb70</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-04-01 17:57:24</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>0075890bb200492980004dd94bb9e0a1</sys_id>
+        <sys_metadata>cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_scope_delete display_value="">6f50a71368504f0abb44120a1e237671</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_cdc9fbe91b91ced0c16ddb9ebd4bcb60</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_cdc9fbe91b91ced0c16ddb9ebd4bcb60">01c9fbe91b91ced0c16ddb9ebd4bcb64</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-04-01 17:57:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

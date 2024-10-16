@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta">
+    <sys_decision_delta action="DELETE">
+        <access>public</access>
+        <active>false</active>
+        <answer_table>sys_decision_multi_result</answer_table>
+        <answer_type>reference</answer_type>
+        <delta/>
+        <description/>
+        <enable_publishing>false</enable_publishing>
+        <label/>
+        <name>Dayforce Approval Matrix 2 delta</name>
+        <parent display_value="Dayforce Approval Matrix 2">2e85ee081b5142d0c16ddb9ebd4bcb7c</parent>
+        <reference_qualifier/>
+        <status>draft</status>
+        <sys_class_name>sys_decision_delta</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dde46ba01b1586d0c16ddb9ebd4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dayforce Approval Matrix 2 delta</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_decision_delta_dde46ba01b1586d0c16ddb9ebd4bcb54</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:12</sys_updated_on>
+    </sys_decision_delta>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_decision_delta_dde46ba01b1586d0c16ddb9ebd4bcb54</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_delta"><sys_decision_delta action="INSERT_OR_UPDATE"><access>public</access><active>false</active><answer_table>sys_decision_multi_result</answer_table><answer_type>reference</answer_type><delta/><description/><enable_publishing>false</enable_publishing><label/><name>Dayforce Approval Matrix 2 delta</name><parent display_value="Dayforce Approval Matrix 2">2e85ee081b5142d0c16ddb9ebd4bcb7c</parent><reference_qualifier/><status>draft</status><sys_class_name>sys_decision_delta</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:12</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>dde46ba01b1586d0c16ddb9ebd4bcb54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Dayforce Approval Matrix 2 delta</sys_name><sys_overrides/><sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package><sys_policy/><sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope><sys_update_name>sys_decision_delta_dde46ba01b1586d0c16ddb9ebd4bcb54</sys_update_name><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:12</sys_updated_on></sys_decision_delta></record_update>]]></payload>
+        <payload_hash>-940808387</payload_hash>
+        <record_name>Dayforce Approval Matrix 2 delta</record_name>
+        <reverted_from/>
+        <source>f56485a31b304a10c16ddb9ebd4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:12</sys_created_on>
+        <sys_id>a1e46ba01b1586d0c16ddb9ebd4bcb58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e8a733e600000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:12</sys_updated_on>
+        <type>Delta Decision Table</type>
+        <update_guid>a5e46ba0de1586d05cc1fe899330f157</update_guid>
+        <update_guid_history>a5e46ba0de1586d05cc1fe899330f157:-940808387</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_delta">sys_decision_delta</sys_db_object>
+        <sys_id>2e2540fc470043c0a508bf3a5de19000</sys_id>
+        <sys_metadata>dde46ba01b1586d0c16ddb9ebd4bcb54</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dayforce Approval Matrix 2 delta</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_scope_delete display_value="">6f50a71368504f0abb44120a1e237671</sys_scope_delete>
+        <sys_update_name>sys_decision_delta_dde46ba01b1586d0c16ddb9ebd4bcb54</sys_update_name>
+        <sys_update_version display_value="sys_decision_delta_dde46ba01b1586d0c16ddb9ebd4bcb54">a1e46ba01b1586d0c16ddb9ebd4bcb58</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

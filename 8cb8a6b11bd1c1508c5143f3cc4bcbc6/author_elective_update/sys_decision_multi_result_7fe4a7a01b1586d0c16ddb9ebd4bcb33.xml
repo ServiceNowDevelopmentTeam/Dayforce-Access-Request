@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Dayforce Approval Matrix 2 delta">dde46ba01b1586d0c16ddb9ebd4bcb54</decision_table>
+        <label>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_decision_multi_result_7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=7fe4a7a01b1586d0c16ddb9ebd4bcb33"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_id>08f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Security IAM">02e4aba01b1586d0c16ddb9ebd4bcb51</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_id>44f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+        <value>1</value>
+        <variable display_value="HRIS">75e46ba01b1586d0c16ddb9ebd4bcbf6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_id>4cf4a7a01b1586d0c16ddb9ebd4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Segment Leader">06e4aba01b1586d0c16ddb9ebd4bcb1a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_id>c8f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+        <value>0</value>
+        <variable display_value="CFO">fde4aba01b1586d0c16ddb9ebd4bcb08</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</application>
+        <file_path/>
+        <instance_id>37412023db6dd890ad8dd7c8f49619a0</instance_id>
+        <instance_name>apigroupdev</instance_name>
+        <name>sys_decision_multi_result_7fe4a7a01b1586d0c16ddb9ebd4bcb33</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result"><sys_decision_multi_result action="INSERT_OR_UPDATE"><decision_table display_value="Dayforce Approval Matrix 2 delta">dde46ba01b1586d0c16ddb9ebd4bcb54</decision_table><label>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</label><result_elements/><sys_class_name>sys_decision_multi_result</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:22</sys_created_on><sys_domain>global</sys_domain><sys_id>7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</sys_name><sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package><sys_policy/><sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope><sys_update_name>sys_decision_multi_result_7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_update_name><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:22</sys_updated_on></sys_decision_multi_result><sys_variable_value action="delete_multiple" query="document_key=7fe4a7a01b1586d0c16ddb9ebd4bcb33"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key><order>400</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:22</sys_created_on><sys_id>08f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:22</sys_updated_on><value>0</value><variable display_value="Security IAM">02e4aba01b1586d0c16ddb9ebd4bcb51</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:22</sys_created_on><sys_id>44f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:22</sys_updated_on><value>1</value><variable display_value="HRIS">75e46ba01b1586d0c16ddb9ebd4bcbf6</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:22</sys_created_on><sys_id>4cf4a7a01b1586d0c16ddb9ebd4bcb34</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:22</sys_updated_on><value>1</value><variable display_value="Segment Leader">06e4aba01b1586d0c16ddb9ebd4bcb1a</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_decision_multi_result</document><document_key>7fe4a7a01b1586d0c16ddb9ebd4bcb33</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>John.Schwab</sys_created_by><sys_created_on>2024-03-29 13:43:22</sys_created_on><sys_id>c8f4a7a01b1586d0c16ddb9ebd4bcb35</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>John.Schwab</sys_updated_by><sys_updated_on>2024-03-29 13:43:22</sys_updated_on><value>0</value><variable display_value="CFO">fde4aba01b1586d0c16ddb9ebd4bcb08</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1454792217</payload_hash>
+        <record_name>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</record_name>
+        <reverted_from/>
+        <source>f56485a31b304a10c16ddb9ebd4bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:22</sys_created_on>
+        <sys_id>04f4a7a01b1586d0c16ddb9ebd4bcb38</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e8a73669a0000001</sys_recorded_at>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:22</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>08f4a7a0b51586d0cd4928d9e900e037</update_guid>
+        <update_guid_history>08f4a7a0b51586d0cd4928d9e900e037:1454792217</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-03-29 13:43:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>3034c1e19c664ac38f9b051912d483a9</sys_id>
+        <sys_metadata>7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Decision Table Multiple Result: Segment Leader: true, HRIS: true, Security IAM: false, CFO: false</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_scope_delete display_value="">6f50a71368504f0abb44120a1e237671</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_7fe4a7a01b1586d0c16ddb9ebd4bcb33</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_7fe4a7a01b1586d0c16ddb9ebd4bcb33">04f4a7a01b1586d0c16ddb9ebd4bcb38</sys_update_version>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-03-29 13:43:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

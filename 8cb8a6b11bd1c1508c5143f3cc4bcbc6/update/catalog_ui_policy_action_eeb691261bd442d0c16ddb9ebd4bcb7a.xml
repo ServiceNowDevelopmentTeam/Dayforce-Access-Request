@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Dayforce Access Request">52978ccf1ba03cd08c5143f3cc4bcba4</catalog_item>
+        <catalog_variable>IO:42aae6c81ba9ed1062e50ed2cd4bcb74</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>John.Schwab</sys_created_by>
+        <sys_created_on>2024-02-14 15:27:17</sys_created_on>
+        <sys_id>eeb691261bd442d0c16ddb9ebd4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>company_permission_group</sys_name>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_eeb691261bd442d0c16ddb9ebd4bcb7a</sys_update_name>
+        <sys_updated_by>John.Schwab</sys_updated_by>
+        <sys_updated_on>2024-02-14 15:27:17</sys_updated_on>
+        <table/>
+        <ui_policy display_value="init">38e505ee1b5442d0c16ddb9ebd4bcb63</ui_policy>
+        <variable>company_permission_group</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

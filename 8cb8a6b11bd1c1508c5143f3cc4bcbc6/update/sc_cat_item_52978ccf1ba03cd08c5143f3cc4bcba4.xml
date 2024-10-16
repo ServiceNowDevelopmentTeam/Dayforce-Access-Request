@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</category>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow display_value="REQF - Dayforce Access Request - C">28f3667e1b0dc9108c5143f3cc4bcb93</flow_designer_flow>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta>access, role, security role, system access, dayforce, ceridian, new user, payroll</meta>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Dayforce Access Request</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>true</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=52978ccf1ba03cd08c5143f3cc4bcba4&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method>submit</request_method>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description>Add or disable privileged payroll access to dayforce</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-09 04:19:48</sys_created_on>
+        <sys_id>52978ccf1ba03cd08c5143f3cc4bcba4</sys_id>
+        <sys_mod_count>76</sys_mod_count>
+        <sys_name>Dayforce Access Request</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sc_cat_item_52978ccf1ba03cd08c5143f3cc4bcba4</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-07-11 15:28:07</sys_updated_on>
+        <taxonomy_topic display_value="Dayforce">b1b87bcc1beaad508c5143f3cc4bcba6</taxonomy_topic>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <u_additional_info/>
+        <u_additional_info_completed/>
+        <u_additional_info_updated/>
+        <u_approval_condition table="sc_req_item">variables.4af84c831be03cd08c5143f3cc4bcb38=1^EQ<item endquery="false" field="variables.4af84c831be03cd08c5143f3cc4bcb38" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </u_approval_condition>
+        <u_cdw_item>false</u_cdw_item>
+        <u_cdw_item_number/>
+        <u_conditional_approvals>true</u_conditional_approvals>
+        <u_contains_approvals>true</u_contains_approvals>
+        <u_custom_additional_info>false</u_custom_additional_info>
+        <u_custom_additional_info_completed>false</u_custom_additional_info_completed>
+        <u_custom_additional_info_updated>false</u_custom_additional_info_updated>
+        <u_custom_info>false</u_custom_info>
+        <u_custom_info_completed>false</u_custom_info_completed>
+        <u_custom_info_updated>false</u_custom_info_updated>
+        <u_custom_signature>false</u_custom_signature>
+        <u_custom_subject>false</u_custom_subject>
+        <u_custom_subject_completed>false</u_custom_subject_completed>
+        <u_custom_subject_updated>false</u_custom_subject_updated>
+        <u_custom_variables>false</u_custom_variables>
+        <u_info/>
+        <u_info_completed/>
+        <u_info_updated/>
+        <u_is_multiple_approval>true</u_is_multiple_approval>
+        <u_is_not_multiple_approver_conditional>true</u_is_not_multiple_approver_conditional>
+        <u_multiple_approval_condition/>
+        <u_signature/>
+        <u_subject/>
+        <u_subject_completed/>
+        <u_subject_updated/>
+        <u_table>sc_req_item</u_table>
+        <u_variables/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>63</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=52978ccf1ba03cd08c5143f3cc4bcba4"/>
+    <fx_price action="delete_multiple" query="id=52978ccf1ba03cd08c5143f3cc4bcba4"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>52978ccf1ba03cd08c5143f3cc4bcba4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-09 04:19:48</sys_created_on>
+        <sys_id>60f70ccf1ba03cd08c5143f3cc4bcb5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>APIDevUser</sys_updated_by>
+        <sys_updated_on>2021-06-09 04:19:48</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>52978ccf1ba03cd08c5143f3cc4bcba4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>APIDevUser</sys_created_by>
+        <sys_created_on>2021-06-09 04:19:48</sys_created_on>
+        <sys_id>e0f74c031be03cd08c5143f3cc4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>APIDevUser</sys_updated_by>
+        <sys_updated_on>2021-06-09 04:19:48</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>17ea1ddd8530000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_52978ccf1ba03cd08c5143f3cc4bcba4</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Dayforce Access Request</previous_claim_name>
+        <previous_claim_scope>8cb8a6b11bd1c1508c5143f3cc4bcbc6</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-28 18:06:17</sys_created_on>
+        <sys_id>cb8ffec61b1dc55062e50ed2cd4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>17e30ece1aa0000001</claim_timestamp>
+        <metadata_update_name>sc_cat_item_52978ccf1ba03cd08c5143f3cc4bcba4</metadata_update_name>
+        <previous_claim_app_version>1.0.1</previous_claim_app_version>
+        <previous_claim_name>Cascading Approvals</previous_claim_name>
+        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-01-28 18:06:17</sys_created_on>
+        <sys_id>8f8ffec61b1dc55062e50ed2cd4bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_req_item</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_req_item">cat_item=52978ccf1ba03cd08c5143f3cc4bcba4^stateCHANGESTO3^ORstageCHANGESTOcomplete^variables.a834ee141bdb45d08c5143f3cc4bcb9a=true^approvalINnot requested,requested^EQ<item display_table="sc_cat_item" display_value="Dayforce Access Request" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="52978ccf1ba03cd08c5143f3cc4bcba4"/>
+            <item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_value="Completed" endquery="false" field="stage" goto="false" newquery="false" operator="CHANGESTO" or="true" value="complete"/>
+            <item endquery="false" field="variables.a834ee141bdb45d08c5143f3cc4bcb9a" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item display_value="not requested,requested" endquery="false" field="approval" goto="false" newquery="false" operator="IN" or="false" value="not requested,requested"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Dayforce No Auto Close for Approval</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-02 21:15:56</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a560b3541b9f85d08c5143f3cc4bcb5c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dayforce No Auto Close for Approval</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dayforce Access Request" source="8cb8a6b11bd1c1508c5143f3cc4bcbc6">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</sys_scope>
+        <sys_update_name>sys_script_a560b3541b9f85d08c5143f3cc4bcb5c</sys_update_name>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a560b3541b9f85d08c5143f3cc4bcb5c"/>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>18086a2d6c20000001</claim_timestamp>
+        <metadata_update_name>sys_script_a560b3541b9f85d08c5143f3cc4bcb5c</metadata_update_name>
+        <previous_claim_app_version>1.0.2</previous_claim_app_version>
+        <previous_claim_name>Dayforce Access Request</previous_claim_name>
+        <previous_claim_scope>8cb8a6b11bd1c1508c5143f3cc4bcbc6</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-02 21:17:40</sys_created_on>
+        <sys_id>8fc073181b9f85d08c5143f3cc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Dayforce Access Request">8cb8a6b11bd1c1508c5143f3cc4bcbc6</claim_owner_scope>
+        <claim_timestamp>18086a2d69e0000001</claim_timestamp>
+        <metadata_update_name>sys_script_a560b3541b9f85d08c5143f3cc4bcb5c</metadata_update_name>
+        <previous_claim_app_version>1.1.23</previous_claim_app_version>
+        <previous_claim_name>Cascading Approvals</previous_claim_name>
+        <previous_claim_scope>22668e5c1b53b45062e50ed2cd4bcbf0</previous_claim_scope>
+        <sys_created_by>Terry.Lillo</sys_created_by>
+        <sys_created_on>2022-05-02 21:17:40</sys_created_on>
+        <sys_id>43c073181b9f85d08c5143f3cc4bcb9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Terry.Lillo</sys_updated_by>
+        <sys_updated_on>2022-10-11 21:47:49</sys_updated_on>
+    </sys_claim>
+</record_update>
